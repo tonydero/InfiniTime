@@ -59,7 +59,9 @@ namespace Pinetime {
         lv_point_t line_date_points[3] {{0, 5}, {135, 5}, {140, 0}};
         lv_point_t line_time_points[3] {{0, 0}, {230, 0}, {235, 5}};
 
-        lv_color_t color_text = lv_color_hex(0x98B69A);
+        lv_color_t color_text = lv_color_hex(0xFFFFFF);
+        lv_color_t color_green = lv_color_hex(0x00FF00);
+        lv_color_t color_red = lv_color_hex(0xFF0000);
 
         lv_style_t style_line;
         lv_style_t style_border;
