@@ -11,6 +11,8 @@
 #include "components/ble/BleController.h"
 #include "utility/DirtyValue.h"
 #include "displayapp/apps/Apps.h"
+#include "displayapp/InfiniTimeTheme.h"
+#include "displayapp/Colors.h"
 
 namespace Pinetime {
   namespace Controllers {
@@ -66,13 +68,13 @@ namespace Pinetime {
         // lv_color_t color_green = lv_color_hex(0xB8BB26);
         // lv_color_t color_blue = lv_color_hex(0x83A598);
         // lv_color_t color_magenta = lv_color_hex(0xD3869B);
-        lv_color_t color_text = Color::white;
-        lv_color_t color_red = Color::red;
-        lv_color_t color_orange = Color::orange;
-        lv_color_t color_yellow = Color::yellow;
-        lv_color_t color_green = Color::green;
-        lv_color_t color_blue = Color::blue;
-        lv_color_t color_magenta = Color::magenta;
+        lv_color_t color_text = Colors::white;
+        lv_color_t color_red = Colors::red;
+        lv_color_t color_orange = Colors::orange;
+        lv_color_t color_yellow = Colors::yellow;
+        lv_color_t color_green = Colors::green;
+        lv_color_t color_blue = Colors::blue;
+        lv_color_t color_magenta = Colors::magenta;
 
         lv_style_t style_line;
         lv_style_t style_border;
