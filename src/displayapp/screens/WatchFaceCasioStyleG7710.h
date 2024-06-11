@@ -59,13 +59,20 @@ namespace Pinetime {
         lv_point_t line_date_points[3] {{0, 5}, {135, 5}, {140, 0}};
         lv_point_t line_time_points[3] {{0, 0}, {230, 0}, {235, 5}};
 
-        lv_color_t color_text = lv_color_hex(0xFFFFFF);
-        lv_color_t color_red = lv_color_hex(0xFB4934);
-        lv_color_t color_orange = lv_color_hex(0xFE8019);
-        lv_color_t color_yellow = lv_color_hex(0xFABD2F);
-        lv_color_t color_green = lv_color_hex(0xB8BB26);
-        lv_color_t color_blue = lv_color_hex(0x83A598);
-        lv_color_t color_magenta = lv_color_hex(0xD3869B);
+        // lv_color_t color_text = lv_color_hex(0xFFFFFF);
+        // lv_color_t color_red = lv_color_hex(0xFB4934);
+        // lv_color_t color_orange = lv_color_hex(0xFE8019);
+        // lv_color_t color_yellow = lv_color_hex(0xFABD2F);
+        // lv_color_t color_green = lv_color_hex(0xB8BB26);
+        // lv_color_t color_blue = lv_color_hex(0x83A598);
+        // lv_color_t color_magenta = lv_color_hex(0xD3869B);
+        lv_color_t color_text = Color::white;
+        lv_color_t color_red = Color::red;
+        lv_color_t color_orange = Color::orange;
+        lv_color_t color_yellow = Color::yellow;
+        lv_color_t color_green = Color::green;
+        lv_color_t color_blue = Color::blue;
+        lv_color_t color_magenta = Color::magenta;
 
         lv_style_t style_line;
         lv_style_t style_border;
